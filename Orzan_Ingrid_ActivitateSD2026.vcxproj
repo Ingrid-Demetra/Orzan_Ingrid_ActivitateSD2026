@@ -129,7 +129,9 @@
   <ItemGroup>
     <ClCompile Include="lab2.c" />
     <ClCompile Include="lab3.c" />
+    <ClCompile Include="lab4.c" />
     <ClCompile Include="sem01.c" />
+    <ClCompile Include="SinlgyLinkedList.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

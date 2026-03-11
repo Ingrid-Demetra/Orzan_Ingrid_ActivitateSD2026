@@ -24,5 +24,11 @@
     <ClCompile Include="lab3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SinlgyLinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
