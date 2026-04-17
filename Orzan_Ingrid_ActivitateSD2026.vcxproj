@@ -132,6 +132,7 @@
     <ClCompile Include="lab4.c" />
     <ClCompile Include="lab5.c" />
     <ClCompile Include="lab6.c" />
+    <ClCompile Include="lab7.c" />
     <ClCompile Include="sem01.c" />
     <ClCompile Include="SinlgyLinkedList.c" />
   </ItemGroup>
