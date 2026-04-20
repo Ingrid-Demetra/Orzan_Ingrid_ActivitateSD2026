@@ -116,9 +116,36 @@
 //	return 0;
 //}
 //
-//void stergeMasiniDinSeria(/*lista masini*/ char serieCautata) {
-//	//sterge toate masinile din lista care au seria primita ca parametru.
-//	//tratati situatia ca masina se afla si pe prima pozitie, si pe ultima pozitie
+//void stergeMasiniDinSeria(struct Nod** lista, char serieCautata) {
+//	struct Nod* curent = *lista;
+//	struct Nod* prev = NULL;
+//	struct Nod* next = curent->next;
+//
+//	while (curent != NULL) {
+//		if (curent->masina.serie == serieCautata) {
+//			if (prev != NULL) {
+//				prev->next = next;
+//			}
+//			else {
+//				*lista = next;
+//			}
+//
+//			free(curent->masina.model);
+//			free(curent->masina.numeSofer);
+//			free(curent);
+//
+//			curent = NULL;
+//		}
+//		prev = curent;
+//		curent = next;
+//
+//		if (curent != NULL) {
+//			next = curent->next;
+//		}
+//		else {
+//			next = NULL;
+//		}
+//	}
 //}
 //
 //float calculeazaPretulMasinilorUnuiSofer(/*lista masini*/ const char* numeSofer) {
