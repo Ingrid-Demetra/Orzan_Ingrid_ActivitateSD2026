@@ -23,7 +23,6 @@
 //	Nod* next;
 //};
 //
-//
 ////creare structura pentru tabela de dispersie
 //// aceasta este un vector de liste
 //struct HashTable {

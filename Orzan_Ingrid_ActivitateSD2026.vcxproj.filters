@@ -39,5 +39,11 @@
     <ClCompile Include="lab7.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="prepTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8-heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
