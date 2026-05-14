@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lab10.c" />
+    <ClCompile Include="lab11Grafuri.c" />
     <ClCompile Include="lab2.c" />
     <ClCompile Include="lab3.c" />
     <ClCompile Include="lab4.c" />
