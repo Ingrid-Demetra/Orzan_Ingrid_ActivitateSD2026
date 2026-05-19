@@ -51,5 +51,8 @@
     <ClCompile Include="lab11Grafuri.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab9-GrafuriABC-reccuperat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
